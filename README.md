@@ -27,3 +27,6 @@ The system employs RAG techniques to improve the performance of LLM's advanced N
 
 ### Run the app
  mesop file_name.py
+
+## Output
+![alt text](imgs/bot-img.png)
