@@ -20,7 +20,7 @@ import mesop.labs as mel
 os.environ["OPENAI_API_KEY"] = "your-api-key"  
 
 # PDF data loading
-DATA_FOLDER = '/Users/adityakoul/Documents/ml kb/ML concept notes'
+DATA_FOLDER = '/data'
 
 def pdf_loader(data_folder=DATA_FOLDER):
     print([fn for fn in os.listdir(DATA_FOLDER) if fn.endswith('.pdf')])
@@ -30,7 +30,7 @@ def pdf_loader(data_folder=DATA_FOLDER):
     return loaders
 
 
-# DATA_FOLDER_TEXT = '/content/drive/MyDrive/Colab Notebooks/transcript_ml'
+# DATA_FOLDER_TEXT = '/data'
 # def txt_loader(data_folder=DATA_FOLDER_TEXT):
 #     loaders = [TextLoader(os.path.join(data_folder, fn))
 #                for fn in os.listdir(data_folder) if fn.endswith('.txt')]
