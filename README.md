@@ -19,4 +19,5 @@ This repository contains the code for an advanced Question and Answer (Q&A) syst
 - Pip
 - langchain
 - openai
+- tiktoken
 - pyPdf
